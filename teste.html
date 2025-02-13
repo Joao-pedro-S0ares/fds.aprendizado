@@ -1,0 +1,45 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>teste</title>
+  </head>
+  <body>
+    <h1>Cafeteria Teste</h1>
+    <form method="POST" action="teste.jsp">
+    Nome: <input type="text" name="nome" />
+    <br />
+    <!--Copo-->
+    Tamanho do copo:
+    <input type="radio" name="tamanho" value="g" /> Grande 150ml
+    <input type="radio" name="tamanho" value="m" /> Medio 110ml
+    <input type="radio" name="tamanho" value="p" /> Pequeno 50ml
+    <br />
+    <!--Sabor-->
+    Sabor:
+    <select nome="sabor">
+      <option>Café Espresso</option>
+      <option>Café Com Pistache</option>
+      <opition>Cappuccino</opition>
+      <option>Café Affogato</option>
+      <option>Mocha</option>
+    </select>
+    <br />
+    <!--Adicionais-->
+    Adicionais:
+    <input type="checkbox" name="chocolate" value="sim" />Chocolate
+    <input type="checkbox" name="canela" value="sim" /> Canela
+    <input type="checkbox" name="leite" value="sim" /> Leite
+    <input type="checkbox" name="creme de leite" value="sim" /> Creme de leite
+    <input type="checkbox" name="chantilly" value="sim" /> Chantilly
+    <br />
+    Hora da entrega:
+    <input type="time" name="horadaentrega" />
+    <br />
+    comentário:
+    <br />
+    <textarea name="mensagem" rows="12" cols="30"></textarea>
+    <br>
+    <input type="submit">
+  </body>
+</html>
